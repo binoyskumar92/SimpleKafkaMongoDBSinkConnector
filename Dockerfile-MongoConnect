@@ -5,4 +5,4 @@ RUN confluent-hub install --no-prompt mongodb/kafka-connect-mongodb:latest
 ENV CONNECT_PLUGIN_PATH="/usr/share/java,/usr/share/confluent-hub-components"
 
 USER root
-COPY customWriteStrategy.jar /usr/share/confluent-hub-components/mongodb-kafka-connect-mongodb/
+#COPY customWriteStrategy.jar /usr/share/confluent-hub-components/mongodb-kafka-connect-mongodb/
